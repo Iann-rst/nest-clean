@@ -39,3 +39,8 @@ lerna-debug.log*
 
 # data postgres
 data
+
+# Private RS256 KEYS
+
+private_key.pem
+public_key.pem
