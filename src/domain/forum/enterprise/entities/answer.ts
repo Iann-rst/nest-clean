@@ -10,7 +10,7 @@ export interface AnswerProps {
   content: string
   attachments: AnswerAttachmentList
   createdAt: Date
-  updatedAt?: Date | null
+  updatedAt?: Date | null // Todo: updatedAt pode ser undefined, null ou ter uma data
 }
 
 export class Answer extends AggregateRoot<AnswerProps> {

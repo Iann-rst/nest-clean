@@ -6,7 +6,7 @@ export interface CommentProps {
   authorId: UniqueEntityId
   content: string
   createdAt: Date
-  updatedAt?: Date | null
+  updatedAt?: Date | null // Todo: updatedAt pode ser undefined, null ou ter uma data
 }
 
 export abstract class Comment<
